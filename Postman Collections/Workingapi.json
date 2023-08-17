@@ -13,7 +13,8 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "https://dummy.restapiexample.com/api/v1/employees"
 			},
 			"response": []
 		}
