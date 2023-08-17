@@ -15,7 +15,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://dummy.restapiexample.com/api/v1/employees?id=2&employee_name=Garrett Winters&employee_salary=170750",
+					"raw": "https://dummy.restapiexample.com/api/v1/employees?id=2&employee_name=sankar&employee_salary=170750",
 					"protocol": "https",
 					"host": [
 						"dummy",
@@ -34,7 +34,7 @@
 						},
 						{
 							"key": "employee_name",
-							"value": "Garrett Winters"
+							"value": "sankar"
 						},
 						{
 							"key": "employee_salary",
