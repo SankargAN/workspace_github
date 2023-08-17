@@ -14,32 +14,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": {
-					"raw": "https://dummy.restapiexample.com/api/v1/employees?id=2&employee_name=Garrett Winters",
-					"protocol": "https",
-					"host": [
-						"dummy",
-						"restapiexample",
-						"com"
-					],
-					"path": [
-						"api",
-						"v1",
-						"employees"
-					],
-					"query": [
-						{
-							"key": "id",
-							"value": "2",
-							"type": "text"
-						},
-						{
-							"key": "employee_name",
-							"value": "Garrett Winters",
-							"type": "text"
-						}
-					]
-				}
+				"url": "https://dummy.restapiexample.com/api/v1/employees"
 			},
 			"response": []
 		}
