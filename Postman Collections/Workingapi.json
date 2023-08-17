@@ -14,7 +14,42 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://dummy.restapiexample.com/api/v1/employees"
+				"url": {
+					"raw": "https://dummy.restapiexample.com/api/v1/employees?id=2&employee_name=Garrett Winters&employee_salary=170750&employee_age=54",
+					"protocol": "https",
+					"host": [
+						"dummy",
+						"restapiexample",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employees"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "employee_name",
+							"value": "Garrett Winters",
+							"type": "text"
+						},
+						{
+							"key": "employee_salary",
+							"value": "170750",
+							"type": "text"
+						},
+						{
+							"key": "employee_age",
+							"value": "54",
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		}
