@@ -14,26 +14,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": {
-					"raw": "https://dummy.restapiexample.com/api/v1/employees?id=5",
-					"protocol": "https",
-					"host": [
-						"dummy",
-						"restapiexample",
-						"com"
-					],
-					"path": [
-						"api",
-						"v1",
-						"employees"
-					],
-					"query": [
-						{
-							"key": "id",
-							"value": "5"
-						}
-					]
-				}
+				"url": "https://dummy.restapiexample.com/api/v1/employees"
 			},
 			"response": []
 		}
