@@ -7,6 +7,20 @@
 	"item": [
 		{
 			"name": "Get_Employees",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "a539c984-f11c-4f23-9d8b-bc07c4546f3b",
+						"exec": [
+							"pm.test(\"Status code is 200 \",function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "557307ee-c1aa-41ae-9d5e-efed249f5e14",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
