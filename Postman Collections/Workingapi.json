@@ -31,6 +31,19 @@
 				"url": "https://dummy.restapiexample.com/api/v1/employees"
 			},
 			"response": []
+		},
+		{
+			"name": "TimeSheet",
+			"id": "edd78664-be2c-4d31-a902-558965a3266c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://3.108.209.221:8000/api/requirements"
+			},
+			"response": []
 		}
 	]
 }
